@@ -1,0 +1,49 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+#evernote-container {
+  height: 100%;
+  box-sizing: border-box;
+}
+.app-container {
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+}
+.quill {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+.ql-container {
+  box-sizing: border-box;
+  height: calc(100% - 42px);
+  overflow-y: scroll;
+}
+.ql-editor {
+  cursor: text;
+}
+.react-mde,
+.mde-textarea-wrapper,
+.mde-text {
+  height: 100% !important;
+  outline: none;
+}
+.mde-tabs button {
+  outline: none;
+}
+.MuiListItem-root.Mui-selected {
+  background-color: #d4d8e8 !important;
+}
+.no-note-selected {
+  font-size: 48px;
+  position: absolute;
+  top: 50px;
+  left: calc(50% - 165px);
+}
